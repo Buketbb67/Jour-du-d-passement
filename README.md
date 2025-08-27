@@ -16,3 +16,15 @@ Voici l'une des données qui ressort de mon analyse. En 2022, si tout le monde v
 Pour retrouver les 10 pays les plus consommateurs et les 10 pays les moins consommateurs de l'année 2022, consulter mon code : jour_depassement.py 
 
 J'ai également réalisé une interface dynamique avec Streamlit pour comparer le jour du dépassement des différents pays pour l'année 2022 et 2024. 
+
+Pour utiliser mon travail, télécharger les bases de données et remplacer les lignes :
+- df = pd.read_excel("C:/Users/buket/Desktop/Epitech/projet_depassement_terre/donnees_propres_streamlit.xlsx") dans jour_depassement_streamlit.py
+- df = pd.read_excel("C:/Users/buket/Desktop/Epitech/projet_depassement_terre/donnees_propres.xlsx") dans jour_depassement
+
+Par les bons noms et empalcements de fichiers qui se trouvent sur votre ordinateur. 
+
+Ensuite, installez Streamlit avec cette commande :
+pip install streamlit
+
+Une fois votre code "jour_depassement_streamlit.py" copié dans votre IDE, lancez cette commande : streamlit run app.py
+
