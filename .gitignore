@@ -1,0 +1,14 @@
+# Ignorer tous les fichiers par défaut
+*
+
+# Sauf le fichier .gitignore lui-même
+!.gitignore
+
+# Ne PAS ignorer les dossiers (nécessaire pour pouvoir annuler l'ignorance de certains fichiers dans des dossiers)
+!*/
+
+# Exemple : ne pas ignorer un fichier README.md si tu en as un
+!README.md
+
+# Ignorer les fichiers OpenDocument texte
+*.odt
